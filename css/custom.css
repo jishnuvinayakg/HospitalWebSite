@@ -55,6 +55,41 @@ body {
   font-size: 3em;
   font-weight: 200; }
 
+.contactHeader {
+  width: 100%;
+  text-align: center;
+  color: white; }
+
+.contactUs {
+  width: 100%; }
+
+#contactMain .fp-tableCell {
+  background-color: gray !important; }
+
+.contactUs .row {
+  color: white;
+  padding-top: 10px;
+  padding-left: 5px; }
+
+.contactUsSub {
+  padding-top: 50px;
+  margin: auto;
+  width: 50%;
+  color: white;
+  display: flex;
+  flex-direction: row; }
+
+.location {
+  width: 100%;
+  text-align: center;
+  padding-top: 30px; }
+
+#icon {
+  color: #33cc33; }
+
+td#td2 {
+  padding-left: 5px; }
+
 @media only screen and (max-width: 420px) {
   .homeText h2 {
     font-size: 2em;
