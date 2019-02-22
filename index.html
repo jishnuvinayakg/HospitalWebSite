@@ -23,20 +23,20 @@
     </button>
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item active">
+      <ul class="navbar-nav ml-auto" id="myMenu">
+        <li data-menuanchor="Home" class="nav-item active">
           <a class="nav-link" href="#Home">Home</a>
         </li>
-        <li class="nav-item">
+        <li data-menuanchor="AboutUs" class="nav-item">
           <a class="nav-link" href="#AboutUs">About Us</a>
         </li>
-        <li class="nav-item">
+        <li data-menuanchor="Treatments" class="nav-item">
           <a class="nav-link" href="#Treatments">Treatments</a>
         </li>
-        <li class="nav-item">
+        <li data-menuanchor="Facilities" class="nav-item">
             <a class="nav-link" href="#Facilities">Facilities</a>
           </li>
-        <li class="nav-item">
+        <li data-menuanchor="ContactUs" class="nav-item">
           <a class="nav-link" href="#ContactUs">Contact Us</a>
         </li>
       </ul>
@@ -198,8 +198,11 @@
     $(document).ready(function () {
       $('#fullpage').fullpage({
         //options here
+        anchors: ['Home', 'AboutUs', 'Treatments', 'Facilities', 'ContactUs'],
+	      menu: '#myMenu',
         autoScrolling: true,
-        scrollHorizontally: true
+        scrollHorizontally: true,
+        responsiveWidth: 600
       });
 
       //methods
