@@ -76,6 +76,7 @@ body {
   margin: auto;
   color: black;
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   justify-content: center; }
 
