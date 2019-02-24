@@ -94,7 +94,17 @@ td#td2 {
 @media only screen and (max-width: 420px) {
   .homeText h2 {
     font-size: 2em;
-    font-weight: 150; } }
+    font-weight: 150; }
+  #fullpage h3 {
+    font-size: 1em; }
+  #fullpage .text {
+    font-size: 0.8em; }
+  #fullpage h1 {
+    font-size: 1.3em; } }
+
+@media only screen and (min-width: 421px) {
+  #fullpage .text {
+    font-size: 1em; } }
 
 /*@media only screen and (max-width :720px)
 {
