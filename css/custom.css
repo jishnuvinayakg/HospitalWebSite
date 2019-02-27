@@ -98,10 +98,10 @@ td#td2 {
   #fullpage h3 {
     font-size: 1em; }
   #fullpage .text {
-    font-size: 0.8em; }
+    font-size: 0.8em;
+    text-align: justify; }
   #fullpage h1 {
-    font-size: 1.3em;
-    text-align: justify; } }
+    font-size: 1.3em; } }
 
 @media only screen and (min-width: 421px) {
   #fullpage .text {
