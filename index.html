@@ -224,10 +224,18 @@
       $.fn.fullpage.setAllowScrolling(true);
 
       if ($(window).width() < 420) {
+
+        $("#navbarSupportedContent ul li a").click(function(){
+
+            $("#navbarSupportedContent").toggleClass("show hide");
+
+        });
     
         $.fn.fullpage.setResponsive(true);
 
       }
+
+     
 
     });
   

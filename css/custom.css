@@ -100,11 +100,13 @@ td#td2 {
   #fullpage .text {
     font-size: 0.8em; }
   #fullpage h1 {
-    font-size: 1.3em; } }
+    font-size: 1.3em;
+    text-align: justify; } }
 
 @media only screen and (min-width: 421px) {
   #fullpage .text {
-    font-size: 1em; } }
+    font-size: 1em;
+    text-align: justify; } }
 
 /*@media only screen and (max-width :720px)
 {
